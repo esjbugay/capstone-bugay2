@@ -1,0 +1,163 @@
+/*CSS Reset*/
+*{
+padding:0;
+margin: 0;
+box-sizing: border-box;
+}
+
+/*Set Font*/
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navbg {
+	background-color: rgb(0, 0, 51);
+
+}
+
+/*LANDING PAGE - GALAXY */
+#bg-image {
+	background-image: url(./images/l2.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: center;
+	min-height: 700px;
+	position: relative;
+	
+}
+
+/*WHITE SCREEN*/
+.front-bg {
+	background-color: white;
+	opacity: .35;
+	min-height: 35vh;
+	min-width: 100%;
+	position: absolute;
+	z-index: 2;
+	margin-top: 8rem;
+	border-style: solid;
+	border-color: white;
+}
+
+/*Text Container*/
+.container {
+	min-width: 100%;
+	position: absolute;
+	z-index: 3;
+
+}
+
+/*ELAINE BUGAY Landing*/
+.container .title {
+	font-size: calc(100% + 3vw + 3vh);
+	margin-top: 8rem;
+	padding-top: 20px;
+	color: black;
+	font-weight: bolder;
+	text-shadow: 3px 2px 2px rgb(153, 187, 255);
+	text-align: center;
+	opacity: 1;	
+}
+
+/*Logistics Engineer⬩Web Developer⬩Photographer*/
+.container .subtitle {
+	color: black;
+	font-size: calc(100% + 1vw + 1vh);
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+/*END OF LANDING*/
+
+/*ABOUT ME PAGE*/
+
+/*2ND Wall*/
+#bg2-image {
+	background-image: url(./images/sky3.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: top;
+	padding-bottom: 200px;
+	
+	
+}
+
+#mecontainer {
+	padding-top:10px;
+}
+#myid {
+	box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.5);
+	margin-top: 3em;
+	margin-bottom: 4px;
+	width: 40vh;
+
+
+
+}
+
+#darkbox {
+	background-color: rgba(0, 0, 51, .3);
+	position: relative;
+	padding: 15px;
+	margin: 5px;
+	
+
+}
+
+#whitebox {
+	background-color: rgba(255, 255, 255, 0.65);
+	height: auto;
+	width: auto;
+	margin: auto;
+	font-family: Questrial, serif;
+	color: black;
+	text-align: justify;
+}
+/*Paragraph text*/
+#whitebox>h4 {
+	font-size: calc(100% + 0.5vw + 0.5vh);
+	font-family: 'Lato', sans-serif;
+	
+}
+
+
+
+/*Elaine Bugay Label*/
+#laboutme {
+	color: white;
+	font-weight: bolder;
+	text-shadow: 3px 2px 2px rgb(0,0, 0);
+	text-align: right;
+	text-align: left;
+	position: absolute;
+	z-index: 3;
+		
+}
+
+
+/*List of Developer Tools*/
+#toolslist {
+background-color: rgba(255, 255, 255, 0.65);
+
+}
+
+/*END OF ABOUT ME*/
+
+
+/*GALLERY*/
+
+#gallerybg {
+	background-image: url(./images/sky1.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	background-position: top;	
+}
+
+
+
+/*END OF GALLERY*/
+
+
+
